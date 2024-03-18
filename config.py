@@ -1,7 +1,7 @@
 # USER INFO
-MY_API_KEY='API-KEY' #API Key'inizi Buraya Giriniz
-MY_USERNAME = "TC veya Denizbank Kullanıcı Adı" #TC veya Denizbank Kullanıcı Adınızı Buraya Giriniz
-MY_PASSWORD = "Şifre" #Denizbank İnternet Bankacılığı Şifrenizi Buraya Giriniz
+MY_API_KEY='API-Tgw3D8GhB8GoPk0kVkXp4S1Ot+OkcYrSvBg852LE0vA=' #API Key'inizi Buraya Giriniz
+MY_USERNAME = "25447086950" #TC veya Denizbank Kullanıcı Adınızı Buraya Giriniz
+MY_PASSWORD = "238523" #Denizbank İnternet Bankacılığı Şifrenizi Buraya Giriniz
 
 # URLS
 hostname = "www.algolab.com.tr"
