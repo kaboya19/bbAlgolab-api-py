@@ -6,7 +6,7 @@ from config import *
 import time
 
 # SQLite veritabanı dosyasının adı
-db_file = "veriler1.db"
+db_file = "veriler3.db"
 
 # Veritabanı bağlantısını oluştur
 conn = sqlite3.connect(db_file)
@@ -59,7 +59,7 @@ def process_msg(msg):
         balance_amount = content["BalanceAmount"]
         buying = content["Buying"]
         selling = content["Selling"]
-        if symbol=="EREGL":                
+        if symbol=="SAHOL" or symbol=="TTKOM" or symbol=="MGROS":                
            conn = sqlite3.connect(db_file)
            cursor = conn.cursor()
            cursor.execute('''INSERT INTO veriler (
